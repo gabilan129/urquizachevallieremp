@@ -1,0 +1,55 @@
+/*index main*/
+
+section{
+    height: 100vh;
+    width: 100%;
+}
+
+.fondoUno {
+    
+background : url(../assets/img-chevallier.jpg);
+background-size: cover;
+background-position: center center;
+background-attachment: fixed;
+
+}
+    
+.fondo2 {
+    background: url(../assets/img-empresa-argentina.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    
+    
+}
+
+.fondo3 {
+    background: url(../assets/img-urquiza.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+
+.div__separador {
+    width: 100%;
+    height: 200px;
+    background : url(../assets/Background.png);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+
+h2 {
+    text-align: center;
+    line-height: 100vh;
+    font-size: 10vw;
+    color: aliceblue;
+}
+
+.div__blur {
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(10px) ;
+}
