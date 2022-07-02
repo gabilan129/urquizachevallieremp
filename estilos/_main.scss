@@ -1,29 +1,29 @@
 /*index main*/
 
-section{
+section {
     height: 100vh;
     width: 100%;
 }
 
 .fondoUno {
-    
-background : url(../assets/img-chevallier.jpg);
-background-size: cover;
-background-position: center center;
-background-attachment: fixed;
+
+    background: url(../assets/img-chevallier.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 
 }
-    
-.fondo2 {
+
+.fondoDos {
     background: url(../assets/img-empresa-argentina.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    
-    
+
+
 }
 
-.fondo3 {
+.fondoTres {
     background: url(../assets/img-urquiza.jpg);
     background-size: cover;
     background-position: center center;
@@ -34,11 +34,11 @@ background-attachment: fixed;
 .div__separador {
     width: 100%;
     height: 200px;
-    background : url(../assets/Background.png);
+    background: url(../assets/Background.png);
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    
+
 }
 
 h2 {
@@ -48,8 +48,17 @@ h2 {
     color: aliceblue;
 }
 
+h2:hover {
+    color: rgb(253, 253, 253);
+    text-shadow: 0 0 10px white,
+        0 0 20px white,
+        0 0 40px red,
+        0 0 80px white,
+        0 0 120px white;
+}
+
 .div__blur {
     height: 100%;
     width: 100%;
-    backdrop-filter: blur(10px) ;
+    backdrop-filter: blur(10px);
 }
