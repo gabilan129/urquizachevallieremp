@@ -65,6 +65,11 @@ h2:hover {
           backdrop-filter: blur(10px);
 }
 
+.div__separador--p {
+  font-size: 100px;
+  text-align: center;
+}
+
 .logo_nav {
   max-width: 100%;
 }
@@ -98,5 +103,10 @@ footer {
 
   h2 {
     font-size: 10vw;
+  }
+
+  .div__separador--p {
+    font-size: 16vw;
+    text-align: center;
   }
 }/*# sourceMappingURL=estilo.css.map */
