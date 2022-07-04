@@ -11,6 +11,7 @@ section {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+    border: 8px outset red;
 
 }
 
@@ -19,6 +20,7 @@ section {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+    border: 8px outset yellow;
 
 
 }
@@ -28,6 +30,7 @@ section {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+    border: 8px outset blue;
 
 }
 
@@ -38,6 +41,8 @@ section {
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    filter: drop-shadow( 0 0 15px black)
+    
 
 }
 
@@ -70,3 +75,4 @@ h2:hover {
     text-align: center ;
     
 }
+

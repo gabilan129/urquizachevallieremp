@@ -21,6 +21,7 @@ section {
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
+  border: 8px outset red;
 }
 
 .fondoDos {
@@ -28,6 +29,7 @@ section {
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
+  border: 8px outset yellow;
 }
 
 .fondoTres {
@@ -35,6 +37,7 @@ section {
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
+  border: 8px outset blue;
 }
 
 .div__separador {
@@ -44,6 +47,7 @@ section {
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  filter: drop-shadow(0 0 15px black);
 }
 
 h2 {
