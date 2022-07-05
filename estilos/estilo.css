@@ -148,6 +148,15 @@ h2:hover {
   width: 50vw;
 }
 
+.destinos figure img {
+  filter: blur(3px);
+  transition: 0.3s ease-in-out;
+}
+
+.destinos figure:hover img {
+  filter: blur(0);
+}
+
 /*Colores*/
 /*ColorNav*/
 /*titulosIndes*/
