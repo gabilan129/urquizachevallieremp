@@ -154,10 +154,11 @@ h2:hover {
 .section__hero{
     /*  background-color: map-get($colores, macro ); */
     height:  70vh;
+    width: 100%;
     background: url(../assets/fondoHero.jpg);
     background-size:cover;
-    background-position: center center;
-    background-attachment: fixed;
+    background-position:bottom;
+    
     
 }
 
