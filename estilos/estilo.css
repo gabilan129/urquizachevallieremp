@@ -139,4 +139,9 @@ footer {
     font-size: 16vw;
     text-align: center;
   }
+
+  .carruselIndex {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }/*# sourceMappingURL=estilo.css.map */
