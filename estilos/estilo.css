@@ -15,6 +15,7 @@ footer {
 /*titulosIndes*/
 /*BordesIndex*/
 /*fuente*/
+/*Separador*/
 /*index main*/
 section {
   height: 100vh;
@@ -53,6 +54,9 @@ section {
   background-attachment: fixed;
   background-repeat: no-repeat;
   filter: drop-shadow(0 0 15px black);
+  background-color: #0e1525;
+  color: white;
+  font-family: "Press Start 2P", cursive;
 }
 
 .h2__chevallier, .h2__urquiza, .h2__empArg {
@@ -63,7 +67,7 @@ section {
   /*line-height: 100vh;*/
   font-size: 9vw;
   color: white;
-  font-family: "Press Start 2P", cursive;
+  font-family: "Monda", sans-serif;
 }
 
 .h2__empArg {
@@ -98,15 +102,22 @@ h2:hover {
 .carruselIndex {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-content: center;
   height: 100%;
   width: 100%;
 }
 
 .section__tres {
+  color: white;
   height: 50vh;
   width: 100%;
-  background-color: azure;
+  background-color: #0e1525;
   text-align: center;
+  font-family: "Press Start 2P", cursive;
+}
+
+.pagoimg {
+  width: 50vw;
 }
 
 /*Colores*/
@@ -114,6 +125,7 @@ h2:hover {
 /*titulosIndes*/
 /*BordesIndex*/
 /*fuente*/
+/*Separador*/
 .logo_nav {
   max-width: 100%;
 }

@@ -15,7 +15,7 @@ section {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    border: $bordeChevallier ;
+    border: $bordeChevallier;
 
 }
 
@@ -24,7 +24,7 @@ section {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-border: $bordeEmpresaArgentina;
+    border: $bordeEmpresaArgentina;
 
 }
 
@@ -33,7 +33,7 @@ border: $bordeEmpresaArgentina;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    border:$bordeUrquiza;
+    border: $bordeUrquiza;
 
 }
 
@@ -44,30 +44,32 @@ border: $bordeEmpresaArgentina;
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    filter: drop-shadow( 0 0 15px black)
+    filter: drop-shadow(0 0 15px black);
+    background-color: $colorSeparador;
+    color: map-get($colores, blanco );
+    font-family: $fuente;
     
-
 }
 
 .h2__chevallier {
-    
+
     hyphens: auto;
     text-align: center;
     /*line-height: 100vh;*/
     font-size: 9vw;
-    color: map-get( $coloresTitulos , chevallier );
-    font-family: $fuente ;
-    
+    color: map-get($coloresTitulos, chevallier);
+    font-family: $fuente2;
+
 }
 
 .h2__empArg {
-    @extend .h2__chevallier ;
-    color: map-get($coloresTitulos , empArg );
-} 
+    @extend .h2__chevallier;
+    color: map-get($coloresTitulos, empArg);
+}
 
 .h2__urquiza {
-    @extend .h2__chevallier ;
-    color: map-get($coloresTitulos , urquiza )
+    @extend .h2__chevallier;
+    color: map-get($coloresTitulos, urquiza)
 }
 
 
@@ -98,24 +100,31 @@ h2:hover {
 
 .div__separador--p {
 
-    
-    font-size: 100px ;
-    text-align: center ;
-    
+
+    font-size: 100px;
+    text-align: center;
+
 }
 
 .carruselIndex {
     display: grid;
     grid-template-columns: 1fr 1fr;
-
+    align-content: center;
     height: 100%;
     width: 100%;
+    
 }
 
 .section__tres {
 
+    color: map-get($colores, blanco );
     height: 50vh;
     width: 100%;
-    background-color: azure;
+    background-color: #0e1525;
     text-align: center;
+    font-family: $fuente;
+}
+
+.pagoimg {
+    width: 50vw;
 }
