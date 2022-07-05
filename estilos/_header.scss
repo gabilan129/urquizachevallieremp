@@ -1,8 +1,15 @@
 @import "./configuracion";
 
+.logo__barra--nav{ 
+    width: 10vh;
+
+}
+
 .logo_nav {
     max-width: 100%;
 } 
+
+
 
 .nav__color {
     background-color: map-get($coloresNav , colorNav );

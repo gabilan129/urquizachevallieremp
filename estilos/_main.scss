@@ -17,8 +17,8 @@ section {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    border: $bordeChevallier;
-    margin-top: 50px;
+   /*  border: $bordeChevallier; */
+    
 }
 
 
@@ -33,20 +33,16 @@ section {
 }
 
 .fondoDos {
-    background: url(../assets/img-empresa-argentina.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    border: $bordeEmpresaArgentina;
+   @include  fondo( url(../assets/img-empresa-argentina.jpg));
+   
 
 }
 
 .fondoTres {
-    background: url(../assets/img-urquiza.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    border: $bordeUrquiza;
+    @include fondo( url(../assets/img-urquiza.jpg));
+    
+
+    
 
 }
 
@@ -154,3 +150,31 @@ h2:hover {
 	-webkit-filter: blur(0);
 	filter: blur(0);
 }
+
+.section__hero{
+    /*  background-color: map-get($colores, macro ); */
+    height:  70vh;
+    background: url(../assets/fondoHero.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.section__titulo{
+    
+    text-align: center;
+    margin-top: 11vh;
+    font-size: 10vw; 
+    color:$tituloHero
+}
+
+.section__hero p {
+color: $parrafoHero;
+text-align: center;
+
+}
+
+.section__hero--iconos {
+    font-size: $iconosHero;
+    
+}
+

@@ -5,6 +5,7 @@
 }
 
 /*Colores*/
+/*Section Hero*/
 /*ColorNav*/
 /*titulosIndes*/
 /*BordesIndex*/
@@ -37,6 +38,7 @@ h5 {
 }
 
 /*Colores*/
+/*Section Hero*/
 /*ColorNav*/
 /*titulosIndes*/
 /*BordesIndex*/
@@ -54,8 +56,7 @@ section {
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
-  border: 8px outset red;
-  margin-top: 50px;
+  /*  border: $bordeChevallier; */
 }
 
 .fondoDos {
@@ -63,7 +64,7 @@ section {
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
-  border: 8px outset yellow;
+  /*  border: $bordeChevallier; */
 }
 
 .fondoTres {
@@ -71,7 +72,7 @@ section {
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
-  border: 8px outset rgba(0, 0, 255, 0.966);
+  /*  border: $bordeChevallier; */
 }
 
 .div__separador {
@@ -157,19 +158,48 @@ h2:hover {
   filter: blur(0);
 }
 
+.section__hero {
+  /*  background-color: map-get($colores, macro ); */
+  height: 70vh;
+  background: url(../assets/fondoHero.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.section__titulo {
+  text-align: center;
+  margin-top: 11vh;
+  font-size: 10vw;
+  color: white;
+}
+
+.section__hero p {
+  color: white;
+  text-align: center;
+}
+
+.section__hero--iconos {
+  font-size: 5vw;
+}
+
 /*Colores*/
+/*Section Hero*/
 /*ColorNav*/
 /*titulosIndes*/
 /*BordesIndex*/
 /*fuente*/
 /*Separador*/
 /*Color Foooter*/
+.logo__barra--nav {
+  width: 10vh;
+}
+
 .logo_nav {
   max-width: 100%;
 }
 
 .nav__color {
-  background-color: rgba(255, 0, 0, 0.199);
+  background-color: rgb(36, 40, 85);
 }
 
 body {
