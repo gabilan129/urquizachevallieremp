@@ -28,6 +28,7 @@ section {
   background-position: center center;
   background-attachment: fixed;
   border: 8px outset red;
+  margin-top: 50px;
 }
 
 .fondoDos {
@@ -68,6 +69,7 @@ section {
   font-size: 9vw;
   color: white;
   font-family: "Monda", sans-serif;
+  font-weight: bold;
 }
 
 .h2__empArg {
@@ -95,7 +97,7 @@ h2:hover {
 }
 
 .div__separador--p {
-  font-size: 100px;
+  font-size: 70px;
   text-align: center;
 }
 
@@ -166,7 +168,7 @@ footer {
   }
 
   .div__separador--p {
-    font-size: 16vw;
+    font-size: 10vw;
     text-align: center;
   }
 

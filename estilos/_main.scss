@@ -16,7 +16,7 @@ section {
     background-position: center center;
     background-attachment: fixed;
     border: $bordeChevallier;
-
+    margin-top: 50px;
 }
 
 .fondoDos {
@@ -59,7 +59,7 @@ section {
     font-size: 9vw;
     color: map-get($coloresTitulos, chevallier);
     font-family: $fuente2;
-
+    font-weight: bold ()
 }
 
 .h2__empArg {
@@ -101,7 +101,7 @@ h2:hover {
 .div__separador--p {
 
 
-    font-size: 100px;
+    font-size: 70px;
     text-align: center;
 
 }

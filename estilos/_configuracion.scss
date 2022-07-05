@@ -1,33 +1,27 @@
-
 /*Colores*/
-$colores : (
-
-    rojo : red ,
+$colores : (rojo : red,
     azul : blue,
     amarillo : yellow,
     blanco : white,
     negro : black,
-    macro:  #0e1525,
-    );
+    macro: #0e1525,
+);
 
 
 
 /*ColorNav*/
 
-    $coloresNav : (
+$coloresNav : (colorNav : rgba(255, 0, 0, 0.199),
 
-        colorNav : rgba(255, 0, 0, 0.199) ,
-        
-        
-        );
+
+);
 
 
 
 /*titulosIndes*/
 
-$coloresTitulos : (
-    chevallier : white ,
-    empArg : yellow ,
+$coloresTitulos : (chevallier : white,
+    empArg : yellow,
     urquiza : blue,
 
 );
@@ -44,13 +38,14 @@ $bordeUrquiza : 8px outset rgb(0, 0, 255);
 
 /*fuente*/
 
-$fuente : 'Press Start 2P', cursive;
-$fuente2 : 'Monda', sans-serif;
-
-$fuente3 : 'Paytone One', sans-serif;  ;
+$fuente : 'Press Start 2P',
+cursive;
+$fuente2 : 'Monda',
+sans-serif;
+$fuente3 : 'Paytone One',
+sans-serif;
+;
 
 /*Separador*/
 
-$colorSeparador :  #0e1525 ;
-
-
+$colorSeparador : #0e1525;
