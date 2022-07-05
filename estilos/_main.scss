@@ -9,14 +9,27 @@ section {
     width: 100%;
 }
 
-.fondoUno {
 
-    background: url(../assets/img-chevallier.jpg);
+
+
+@mixin fondo ($fondoindex)  {
+    background:$fondoindex; 
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
     border: $bordeChevallier;
     margin-top: 50px;
+}
+
+
+
+
+
+.fondoUno {
+
+    @include fondo(url(../assets/img-chevallier.jpg))
+
+    
 }
 
 .fondoDos {
@@ -55,7 +68,6 @@ section {
 
     hyphens: auto;
     text-align: center;
-    /*line-height: 100vh;*/
     font-size: 9vw;
     color: map-get($coloresTitulos, chevallier);
     font-family: $fuente2;
@@ -85,6 +97,9 @@ h2:hover {
 
 
 
+
+
+ 
 
 
 
