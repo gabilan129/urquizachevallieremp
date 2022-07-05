@@ -10,6 +10,9 @@ footer {
   background-color: rgb(241, 241, 241);
 }
 
+/*Colores*/
+/*titulosIndes*/
+/*BordesIndex*/
 /*index main*/
 section {
   height: 100vh;
@@ -37,7 +40,7 @@ section {
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
-  border: 8px outset blue;
+  border: 8px outset rgb(0, 0, 255);
 }
 
 .div__separador {
@@ -50,11 +53,23 @@ section {
   filter: drop-shadow(0 0 15px black);
 }
 
-h2 {
+.h2__chevallier, .h2__urquiza, .h2__empArg {
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
   text-align: center;
-  line-height: 100vh;
-  font-size: 10vw;
-  color: aliceblue;
+  /*line-height: 100vh;*/
+  font-size: 9vw;
+  color: white;
+  font-family: "Press Start 2P", cursive;
+}
+
+.h2__empArg {
+  color: yellow;
+}
+
+.h2__urquiza {
+  color: blue;
 }
 
 h2:hover {
@@ -63,6 +78,10 @@ h2:hover {
 }
 
 .div__blur {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   height: 100%;
   width: 100%;
   -webkit-backdrop-filter: blur(10px);
@@ -72,6 +91,13 @@ h2:hover {
 .div__separador--p {
   font-size: 100px;
   text-align: center;
+}
+
+.carruselIndex {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 50%;
+  width: 100%;
 }
 
 .logo_nav {

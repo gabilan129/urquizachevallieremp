@@ -1,4 +1,8 @@
+@import "./configuracion";
+
+
 /*index main*/
+
 
 section {
     height: 100vh;
@@ -11,7 +15,7 @@ section {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    border: 8px outset red;
+    border: $bordeChevallier ;
 
 }
 
@@ -20,8 +24,7 @@ section {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    border: 8px outset yellow;
-
+border: $bordeEmpresaArgentina;
 
 }
 
@@ -30,7 +33,7 @@ section {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    border: 8px outset blue;
+    border:$bordeUrquiza;
 
 }
 
@@ -46,12 +49,26 @@ section {
 
 }
 
-h2 {
+.h2__chevallier {
+    
+    hyphens: auto;
     text-align: center;
-    line-height: 100vh;
-    font-size: 10vw;
-    color: aliceblue;
+    /*line-height: 100vh;*/
+    font-size: 9vw;
+    color: map-get( $coloresTitulos , chevallier );
+    font-family: 'Press Start 2P', cursive; 
 }
+
+.h2__empArg {
+    @extend .h2__chevallier ;
+    color: map-get($coloresTitulos , empArg );
+} 
+
+.h2__urquiza {
+    @extend .h2__chevallier ;
+    color: map-get($coloresTitulos , urquiza )
+}
+
 
 h2:hover {
     color: rgb(253, 253, 253);
@@ -62,7 +79,17 @@ h2:hover {
         0 0 120px white;
 }
 
+
+
+
+
+
+
 .div__blur {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     height: 100%;
     width: 100%;
     backdrop-filter: blur(10px);
@@ -76,3 +103,10 @@ h2:hover {
     
 }
 
+.carruselIndex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    height: 50%;
+    width: 100%;
+}

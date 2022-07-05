@@ -1,3 +1,31 @@
-$rojo : red;
-$azul : blue ;
-$amarillo : yellow;
+
+/*Colores*/
+$colores : (
+
+    rojo : red ,
+    azul : blue,
+    amarillo : yellow,
+    blanco : white,
+    negro : black,
+    
+    );
+
+
+/*titulosIndes*/
+
+$coloresTitulos : (
+    chevallier : white ,
+    empArg : yellow ,
+    urquiza : blue,
+
+);
+
+
+/*BordesIndex*/
+
+
+$bordeChevallier :8px outset red;
+
+$bordeEmpresaArgentina: 8px outset yellow;
+
+$bordeUrquiza : 8px outset rgb(0, 0, 255);
