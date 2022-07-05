@@ -155,8 +155,10 @@ h2:hover {
     /*  background-color: map-get($colores, macro ); */
     height:  70vh;
     background: url(../assets/fondoHero.jpg);
-    background-size: cover;
+    background-size:cover;
     background-position: center center;
+    background-attachment: fixed;
+    
 }
 
 .section__titulo{
