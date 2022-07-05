@@ -1,3 +1,10 @@
+@import "./configuracion";
+
 .logo_nav {
     max-width: 100%;
 } 
+
+.nav__color {
+    background-color: map-get($coloresNav , colorNav );
+    
+}

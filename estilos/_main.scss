@@ -56,7 +56,8 @@ border: $bordeEmpresaArgentina;
     /*line-height: 100vh;*/
     font-size: 9vw;
     color: map-get( $coloresTitulos , chevallier );
-    font-family: 'Press Start 2P', cursive; 
+    font-family: $fuente ;
+    
 }
 
 .h2__empArg {
@@ -107,6 +108,14 @@ h2:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
 
-    height: 50%;
+    height: 100%;
     width: 100%;
+}
+
+.section__tres {
+
+    height: 50vh;
+    width: 100%;
+    background-color: azure;
+    text-align: center;
 }

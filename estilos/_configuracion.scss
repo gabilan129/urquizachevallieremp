@@ -11,6 +11,18 @@ $colores : (
     );
 
 
+
+/*ColorNav*/
+
+    $coloresNav : (
+
+        colorNav : rgba(255, 0, 0, 0.199) ,
+        
+        
+        );
+
+
+
 /*titulosIndes*/
 
 $coloresTitulos : (
@@ -29,3 +41,7 @@ $bordeChevallier :8px outset red;
 $bordeEmpresaArgentina: 8px outset yellow;
 
 $bordeUrquiza : 8px outset rgb(0, 0, 255);
+
+/*fuente*/
+
+$fuente : 'Press Start 2P', cursive;
