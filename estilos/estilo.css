@@ -33,7 +33,7 @@ footer div div {
 }
 
 h5 {
-  font-size: 50px;
+  font-size: 20px;
 }
 
 /*Colores*/
@@ -210,6 +210,10 @@ footer {
 
   .carruselIndex {
     display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .footer {
     grid-template-columns: 1fr;
   }
 }/*# sourceMappingURL=estilo.css.map */

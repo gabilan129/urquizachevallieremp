@@ -1,7 +1,7 @@
 @import "./configuracion";
 
 footer {
-padding-bottom: 30px;
+    padding-bottom: 30px;
     background-color: $fondoFooter;
     color:map-get($colores, blanco );
 }
@@ -16,7 +16,6 @@ padding-bottom: 30px;
 
 .footer {
     @include dgrid(1fr 1fr, auto, 20px);
-
 }
 
 .iconos__footer {
@@ -28,5 +27,8 @@ footer div div {
 }
 
 h5 {
-    font-size: 50px;
+    
+  
+    
+    font-size: 20px;
 }
