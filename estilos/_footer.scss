@@ -4,6 +4,7 @@ footer {
     padding-bottom: 30px;
     background-color: $fondoFooter;
     color: map-get($colores, blanco);
+    
 }
 
 @mixin dgrid($column, $row, $gap) {

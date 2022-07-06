@@ -12,13 +12,13 @@ section {
 
 
 
-@mixin fondo ($fondoindex)  {
-    background:$fondoindex; 
+@mixin fondo ($fondoindex) {
+    background: $fondoindex;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-   /*  border: $bordeChevallier; */
-    
+    /*  border: $bordeChevallier; */
+
 }
 
 
@@ -28,21 +28,19 @@ section {
 .fondoUno {
 
     @include fondo(url(../assets/img-chevallier.jpg))
-
-    
 }
 
 .fondoDos {
-   @include  fondo( url(../assets/img-empresa-argentina.jpg));
-   
+    @include fondo(url(../assets/img-empresa-argentina.jpg));
+
 
 }
 
 .fondoTres {
-    @include fondo( url(../assets/img-urquiza.jpg));
-    
+    @include fondo(url(../assets/img-urquiza.jpg));
 
-    
+
+
 
 }
 
@@ -55,9 +53,9 @@ section {
     background-repeat: no-repeat;
     filter: drop-shadow(0 0 15px black);
     background-color: $colorSeparador;
-    color: map-get($colores, blanco );
+    color: map-get($colores, blanco);
     font-family: $fuente;
-    
+
 }
 
 .h2__chevallier {
@@ -123,13 +121,18 @@ h2:hover {
     align-content: center;
     height: 100%;
     width: 100%;
-    
+
+}
+
+.carrusel__Tamaño {
+    width: 100%;
+    height: 100%;
 }
 
 .section__tres {
 
-    color: map-get($colores, blanco );
-    height: 50vh;
+    color: map-get($colores, blanco);
+    height: 300px;
     width: 100%;
     background-color: #0e1525;
     text-align: center;
@@ -141,43 +144,43 @@ h2:hover {
 }
 
 .destinos figure img {
-	-webkit-filter: blur(3px);
-	filter: blur(3px);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-.destinos figure:hover img {
-	-webkit-filter: blur(0);
-	filter: blur(0);
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
 }
 
-.section__hero{
+.destinos figure:hover img {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+}
+
+.section__hero {
     /*  background-color: map-get($colores, macro ); */
-    height:  70vh;
+    height: 70vh;
     width: 100%;
     background: url(../assets/fondoHero.jpg);
-    background-size:cover;
-    background-position:bottom;
-    
-    
+    background-size: cover;
+    background-position: bottom;
+
+
 }
 
-.section__titulo{
-    
+.section__titulo {
+
     text-align: center;
     margin-top: 11vh;
-    font-size: 10vw; 
-    color:$tituloHero
+    font-size: 10vw;
+    color: $tituloHero
 }
 
 .section__hero p {
-color: $parrafoHero;
-text-align: center;
+    color: $parrafoHero;
+    text-align: center;
 
 }
 
 .section__hero--iconos {
     font-size: $iconosHero;
-    
-}
 
+}
