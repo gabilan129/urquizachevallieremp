@@ -9,7 +9,16 @@ section {
     width: 100%;
 }
 
+@mixin efectoNeon ($neonColor) {
 
+    text-shadow: 0 0 10px white,
+        0 0 20px white,
+        0 0 40px $neonColor,
+        0 0 80px white,
+        0 0 120px white;
+
+
+}
 
 
 @mixin fondo ($fondoindex) {
@@ -81,11 +90,7 @@ section {
 
 h2:hover {
     color: rgb(253, 253, 253);
-    text-shadow: 0 0 10px white,
-       0 0 20px white,
-        0 0 40px red,
-        0 0 80px white,
-        0 0 120px white; 
+    @include efectoNeon(red)
 }
 
 
@@ -156,7 +161,7 @@ h2:hover {
 }
 
 .section__hero {
-    /*  background-color: map-get($colores, macro ); */
+
     height: 70vh;
     width: 100%;
     background: url(../assets/fondoHero.jpg);
@@ -169,28 +174,26 @@ h2:hover {
 .section__titulo {
 
     text-align: center;
-    margin-top: 11vh;
+    margin-top: 10vh;
     font-size: 10vw;
     color: $tituloHero;
-    text-shadow: 0 0 10px white,
-    0 0 20px white,
-     0 0 40px rgb(225, 0, 255),
-     0 0 80px white,
-     0 0 120px white;
+    @include efectoNeon(rgb(225, 0, 255))
 }
 
-.section__hero p {
+.section__parrafo {
+    
+    font-size: map-get($tamañoFuentes , hero-parrafo);
     color: $parrafoHero;
     text-align: center;
-
+    @include efectoNeon(rgb(225, 0, 255))
 }
 
-.section__hero--iconos {
+.section__hero--iconos  {
+    color: map-get($colores, blanco );
+    text-align: center;
     font-size: $iconosHero;
-    text-shadow: 0 0 10px white,
-    0 0 20px white,
-     0 0 40px rgb(225, 0, 255),
-     0 0 80px white,
-     0 0 120px white;
-
+    @include efectoNeon(rgb(225, 0, 255))
 }
+
+
+

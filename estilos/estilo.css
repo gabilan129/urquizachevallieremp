@@ -7,6 +7,7 @@
 
 /*Colores*/
 /*Section Hero*/
+/*tamaño de fuentes*/
 /*ColorNav*/
 /*titulosIndes*/
 /*BordesIndex*/
@@ -40,6 +41,7 @@ h5 {
 
 /*Colores*/
 /*Section Hero*/
+/*tamaño de fuentes*/
 /*ColorNav*/
 /*titulosIndes*/
 /*BordesIndex*/
@@ -167,7 +169,6 @@ h2:hover {
 }
 
 .section__hero {
-  /*  background-color: map-get($colores, macro ); */
   height: 70vh;
   width: 100%;
   background: url(../assets/fondoHero.jpg);
@@ -177,24 +178,29 @@ h2:hover {
 
 .section__titulo {
   text-align: center;
-  margin-top: 11vh;
+  margin-top: 10vh;
   font-size: 10vw;
   color: white;
   text-shadow: 0 0 10px white, 0 0 20px white, 0 0 40px rgb(225, 0, 255), 0 0 80px white, 0 0 120px white;
 }
 
-.section__hero p {
+.section__parrafo {
+  font-size: 3rem;
   color: white;
   text-align: center;
+  text-shadow: 0 0 10px white, 0 0 20px white, 0 0 40px rgb(225, 0, 255), 0 0 80px white, 0 0 120px white;
 }
 
 .section__hero--iconos {
+  color: white;
+  text-align: center;
   font-size: 5vw;
   text-shadow: 0 0 10px white, 0 0 20px white, 0 0 40px rgb(225, 0, 255), 0 0 80px white, 0 0 120px white;
 }
 
 /*Colores*/
 /*Section Hero*/
+/*tamaño de fuentes*/
 /*ColorNav*/
 /*titulosIndes*/
 /*BordesIndex*/
