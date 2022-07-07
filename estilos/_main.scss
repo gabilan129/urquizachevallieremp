@@ -54,7 +54,7 @@ section {
     filter: drop-shadow(0 0 15px black);
     background-color: $colorSeparador;
     color: map-get($colores, blanco);
-    font-family: $fuente;
+    font-family: $fuente3;
 
 }
 
@@ -82,10 +82,10 @@ section {
 h2:hover {
     color: rgb(253, 253, 253);
     text-shadow: 0 0 10px white,
-        0 0 20px white,
+       0 0 20px white,
         0 0 40px red,
         0 0 80px white,
-        0 0 120px white;
+        0 0 120px white; 
 }
 
 
@@ -132,11 +132,11 @@ h2:hover {
 .section__tres {
 
     color: map-get($colores, blanco);
-    height: 300px;
+    height: fit-content;
     width: 100%;
     background-color: #0e1525;
     text-align: center;
-    font-family: $fuente;
+    font-family: $fuente3;
 }
 
 .pagoimg {
@@ -171,7 +171,12 @@ h2:hover {
     text-align: center;
     margin-top: 11vh;
     font-size: 10vw;
-    color: $tituloHero
+    color: $tituloHero;
+    text-shadow: 0 0 10px white,
+    0 0 20px white,
+     0 0 40px rgb(225, 0, 255),
+     0 0 80px white,
+     0 0 120px white;
 }
 
 .section__hero p {
@@ -182,5 +187,10 @@ h2:hover {
 
 .section__hero--iconos {
     font-size: $iconosHero;
+    text-shadow: 0 0 10px white,
+    0 0 20px white,
+     0 0 40px rgb(225, 0, 255),
+     0 0 80px white,
+     0 0 120px white;
 
 }
