@@ -198,6 +198,8 @@ h2:hover {
   text-shadow: 0 0 10px white, 0 0 20px white, 0 0 40px rgb(225, 0, 255), 0 0 80px white, 0 0 120px white;
 }
 
+/*Fin del index*/
+/*Chevallier*/
 /*Colores*/
 /*Section Hero*/
 /*tamaño de fuentes*/
@@ -238,6 +240,15 @@ footer {
   grid-area: 3/1/4/2;
 }
 
+/*Colores*/
+/*Section Hero*/
+/*tamaño de fuentes*/
+/*ColorNav*/
+/*titulosIndes*/
+/*BordesIndex*/
+/*fuente*/
+/*Separador*/
+/*Color Foooter*/
 /*Resposive*/
 @media screen and (max-width: 780px) {
   .fondoUno {
@@ -266,7 +277,7 @@ footer {
 
   .section__hero {
     /*  background-color: map-get($colores, macro ); */
-    height: 30vh;
+    height: 60vh;
     width: 100%;
     background: url(../assets/fondoHero.jpg);
     background-size: cover;
@@ -277,5 +288,9 @@ footer {
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
+  }
+
+  .section__parrafo {
+    font-size: 2rem;
   }
 }/*# sourceMappingURL=estilo.css.map */

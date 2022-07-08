@@ -1,3 +1,5 @@
+@import "./configuracion";
+
 /*Resposive*/
 
 @media screen and (max-width : 780px) {
@@ -36,7 +38,7 @@
 
         .section__hero {
             /*  background-color: map-get($colores, macro ); */
-            height: 30vh;
+            height: 60vh;
             width: 100%;
             background: url(../assets/fondoHero.jpg);
             background-size: cover;
@@ -49,6 +51,11 @@
             height: fit-content;
         }
         
+        .section__parrafo {
+            font-size: map-get($tamañoFuentes , hero-parrafo-responsive);
+
+
+        }
 
 
     }
