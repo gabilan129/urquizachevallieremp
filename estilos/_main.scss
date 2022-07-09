@@ -27,7 +27,7 @@ section {
     background-position: center center;
     background-attachment: fixed;
     /*  border: $bordeChevallier; */
-    
+
 
 }
 
@@ -182,15 +182,15 @@ h2:hover {
 }
 
 .section__parrafo {
-    
-    font-size: map-get($tamañoFuentes , hero-parrafo);
+
+    font-size: map-get($tamañoFuentes, hero-parrafo);
     color: $parrafoHero;
     text-align: center;
     @include efectoNeon(rgb(225, 0, 255))
 }
 
-.section__hero--iconos  {
-    color: map-get($colores, blanco );
+.section__hero--iconos {
+    color: map-get($colores, blanco);
     text-align: center;
     font-size: $iconosHero;
     @include efectoNeon(rgb(225, 0, 255))
@@ -200,5 +200,16 @@ h2:hover {
 
 /*Chevallier*/
 
+.section__chevallier {
+    overflow: hidden;
+    margin-top: 20px;
+    background-color: rgb(255, 0, 0);
+}
 
+.section__chevallier--titulo {
+    margin-top: 150px;
+    text-align: center;
+    font-family: $fuente2;
+    font-size: 10vw;
 
+}

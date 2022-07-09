@@ -200,6 +200,19 @@ h2:hover {
 
 /*Fin del index*/
 /*Chevallier*/
+.section__chevallier {
+  overflow: hidden;
+  margin-top: 20px;
+  background-color: rgb(255, 0, 0);
+}
+
+.section__chevallier--titulo {
+  margin-top: 150px;
+  text-align: center;
+  font-family: "Monda", sans-serif;
+  font-size: 10vw;
+}
+
 /*Colores*/
 /*Section Hero*/
 /*tamaño de fuentes*/
