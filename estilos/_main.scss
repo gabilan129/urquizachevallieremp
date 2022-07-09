@@ -200,19 +200,17 @@ h2:hover {
 
 /*Chevallier*/
 
+
 .section__chevallier {
-    background: url(../assets/img-chevallier.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
+    
+    
+    background: url(../assets/img-chevallier.jpg) no-repeat fixed center center #333 ;
     background-size: cover;
     overflow: hidden;
     margin-top: 20px;
-    background-color: rgb(255, 0, 0);
+
 }
 
-.section__chevallier::after{
-    background-color: red;
-}
 
 
 
@@ -221,5 +219,16 @@ h2:hover {
     text-align: center;
     font-family: $fuente2;
     font-size: 10vw;
+    color: white;
+    @include efectoNeon(red)
+
+}
+
+.section__chevallier p {
+     
+    font-family: $fuente2 ;
+    color: white;
+    font-size: 1rem;
+
 
 }
