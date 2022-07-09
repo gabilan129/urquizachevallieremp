@@ -201,9 +201,17 @@ h2:hover {
 /*Fin del index*/
 /*Chevallier*/
 .section__chevallier {
+  background: url(../assets/img-chevallier.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   overflow: hidden;
   margin-top: 20px;
   background-color: rgb(255, 0, 0);
+}
+
+.section__chevallier::after {
+  background-color: red;
 }
 
 .section__chevallier--titulo {
