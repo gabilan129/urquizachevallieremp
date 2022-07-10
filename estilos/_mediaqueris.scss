@@ -57,9 +57,34 @@
 
         }
 
-
+        .section__chevallier {
     
+    
+            background: url(../assets/img-chevallier.jpg) no-repeat fixed center center #333 ;
+            background-size: cover;
+            overflow: auto;
+            margin-top: 50px;
+            
+        
+        }
+    
+        .section__chevallier p {
+            font-family: $fuente2 ;
+            color: white;
+            font-size: 1rem;
+            font-weight: 900;
+            overflow:hidden;
+            text-align:justify;
+        }
+
+         
+
+    }
 
 
+    @media screen and (max-width : 876px){
+
+       .section__chevallier p{
+         font-size: 1rem;}
 
     }

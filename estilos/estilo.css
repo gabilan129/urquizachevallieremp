@@ -15,9 +15,10 @@
 /*Separador*/
 /*Color Foooter*/
 footer {
-  padding-bottom: 30px;
+  padding-bottom: 50px;
   background-color: #080b13;
   color: white;
+  margin-bottom: 0px;
 }
 
 .footer {
@@ -203,8 +204,11 @@ h2:hover {
 .section__chevallier {
   background: url(../assets/img-chevallier.jpg) no-repeat fixed center center #333;
   background-size: cover;
+  margin-top: 15px;
+}
+
+.animation_overflow {
   overflow: hidden;
-  margin-top: 20px;
 }
 
 .section__chevallier--titulo {
@@ -214,12 +218,16 @@ h2:hover {
   font-size: 10vw;
   color: white;
   text-shadow: 0 0 10px white, 0 0 20px white, 0 0 40px red, 0 0 80px white, 0 0 120px white;
+  font-weight: 900;
 }
 
 .section__chevallier p {
+  margin: 10px;
   font-family: "Monda", sans-serif;
   color: white;
-  font-size: 1rem;
+  font-size: 20px;
+  overflow: hidden;
+  text-align: justify;
 }
 
 /*Colores*/
@@ -314,5 +322,26 @@ footer {
 
   .section__parrafo {
     font-size: 2rem;
+  }
+
+  .section__chevallier {
+    background: url(../assets/img-chevallier.jpg) no-repeat fixed center center #333;
+    background-size: cover;
+    overflow: auto;
+    margin-top: 50px;
+  }
+
+  .section__chevallier p {
+    font-family: "Monda", sans-serif;
+    color: white;
+    font-size: 1rem;
+    font-weight: 900;
+    overflow: hidden;
+    text-align: justify;
+  }
+}
+@media screen and (max-width: 876px) {
+  .section__chevallier p {
+    font-size: 1rem;
   }
 }/*# sourceMappingURL=estilo.css.map */

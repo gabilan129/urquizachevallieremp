@@ -1,10 +1,10 @@
 @import "./configuracion";
 
 footer {
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     background-color: $fondoFooter;
     color: map-get($colores, blanco);
-    
+    margin-bottom: 0px;
 }
 
 @mixin dgrid($column, $row, $gap) {
@@ -33,3 +33,4 @@ h5 {
 
     font-size: 20px;
 }
+
