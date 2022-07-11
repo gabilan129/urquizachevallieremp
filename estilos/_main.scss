@@ -219,10 +219,6 @@ h2:hover {
 }
 
 
-.animation_overflow {
-
-    overflow: hidden;
-}
 
 .section__chevallier--titulo {
     margin-top: 150px;
@@ -271,4 +267,9 @@ h2:hover {
 .section__urquiza--h2 {
     @extend .section__chevallier--h2
 
+}
+
+.section__urquiza__div--parrafo {
+    @extend .section__chevallier__div--parrafo;
+    
 }

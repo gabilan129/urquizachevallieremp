@@ -78,6 +78,7 @@ $fondoFooter: #080b13;
 @mixin sectionEmpresas ($fondosEmpresas) {
     
     background: url($fondosEmpresas) no-repeat fixed center center #333;
+    
     height:100%;
     background-size: cover;
     margin-top: 15px;
@@ -85,3 +86,10 @@ $fondoFooter: #080b13;
 
 
 
+/*ocultar desvorde de animacion*/
+
+
+.animation_overflow {
+
+    overflow: hidden;
+}

@@ -9,6 +9,11 @@
 /*Separador*/
 /*Color Foooter*/
 /*FOndos secciones empresas*/
+/*ocultar desvorde de animacion*/
+.animation_overflow {
+  overflow: hidden;
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -34,6 +39,11 @@
 /*Separador*/
 /*Color Foooter*/
 /*FOndos secciones empresas*/
+/*ocultar desvorde de animacion*/
+.animation_overflow {
+  overflow: hidden;
+}
+
 footer {
   padding-bottom: 50px;
   background-color: #080b13;
@@ -70,6 +80,11 @@ h5 {
 /*Separador*/
 /*Color Foooter*/
 /*FOndos secciones empresas*/
+/*ocultar desvorde de animacion*/
+.animation_overflow {
+  overflow: hidden;
+}
+
 /*index main*/
 section {
   height: 100vh;
@@ -229,10 +244,6 @@ h2:hover {
   margin-top: 15px;
 }
 
-.animation_overflow {
-  overflow: hidden;
-}
-
 .section__chevallier--titulo, .section__urquiza--titulo {
   margin-top: 150px;
   text-align: center;
@@ -253,7 +264,7 @@ h2:hover {
   font-weight: 900;
 }
 
-.section__chevallier__div--parrafo {
+.section__chevallier__div--parrafo, .section__urquiza__div--parrafo {
   margin: 10px;
   font-family: "Monda", sans-serif;
   color: white;
@@ -280,6 +291,11 @@ h2:hover {
 /*Separador*/
 /*Color Foooter*/
 /*FOndos secciones empresas*/
+/*ocultar desvorde de animacion*/
+.animation_overflow {
+  overflow: hidden;
+}
+
 .logo__barra--nav {
   width: 10vh;
 }
@@ -321,6 +337,11 @@ footer {
 /*Separador*/
 /*Color Foooter*/
 /*FOndos secciones empresas*/
+/*ocultar desvorde de animacion*/
+.animation_overflow {
+  overflow: hidden;
+}
+
 /*Resposive*/
 @media screen and (max-width: 780px) {
   .fondoUno {
@@ -364,7 +385,7 @@ footer {
     overflow: auto;
     margin-top: 50px;
   }
-  .section__chevallier p {
+  .section__chevallier__div--parrafo, .section__urquiza__div--parrafo {
     font-family: "Monda", sans-serif;
     color: white;
     font-size: 1rem;
