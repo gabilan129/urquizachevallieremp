@@ -1,8 +1,27 @@
 @charset "UTF-8";
+/*Colores*/
+/*Section Hero*/
+/*tamaño de fuentes*/
+/*ColorNav*/
+/*titulosIndes*/
+/*BordesIndex*/
+/*fuente*/
+/*Separador*/
+/*Color Foooter*/
+/*FOndos secciones empresas*/
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+  background-color: #0e1525;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: aqua;
+  border-radius: 10px;
 }
 
 /*Colores*/
@@ -14,6 +33,7 @@
 /*fuente*/
 /*Separador*/
 /*Color Foooter*/
+/*FOndos secciones empresas*/
 footer {
   padding-bottom: 50px;
   background-color: #080b13;
@@ -49,6 +69,7 @@ h5 {
 /*fuente*/
 /*Separador*/
 /*Color Foooter*/
+/*FOndos secciones empresas*/
 /*index main*/
 section {
   height: 100vh;
@@ -202,7 +223,8 @@ h2:hover {
 /*Fin del index*/
 /*Chevallier*/
 .section__chevallier {
-  background: url(../assets/img-chevallier.jpg) no-repeat fixed center center #333;
+  background: url("../assets/img-chevallier.jpg") no-repeat fixed center center #333;
+  height: 100%;
   background-size: cover;
   margin-top: 15px;
 }
@@ -211,7 +233,7 @@ h2:hover {
   overflow: hidden;
 }
 
-.section__chevallier--titulo {
+.section__chevallier--titulo, .section__urquiza--titulo {
   margin-top: 150px;
   text-align: center;
   font-family: "Monda", sans-serif;
@@ -221,13 +243,31 @@ h2:hover {
   font-weight: 900;
 }
 
-.section__chevallier p {
+.section__chevallier--h2, .section__urquiza--h2 {
+  margin-top: 150px;
+  text-align: center;
+  font-family: "Monda", sans-serif;
+  font-size: 5vw;
+  color: white;
+  text-shadow: 0 0 10px white, 0 0 20px white, 0 0 40px red, 0 0 80px white, 0 0 120px white;
+  font-weight: 900;
+}
+
+.section__chevallier__div--parrafo {
   margin: 10px;
   font-family: "Monda", sans-serif;
   color: white;
   font-size: 20px;
   overflow: hidden;
   text-align: justify;
+}
+
+/*URQUIZA*/
+.section__urquiza {
+  background: url("../assets/img-urquiza.jpg") no-repeat fixed center center #333;
+  height: 100%;
+  background-size: cover;
+  margin-top: 15px;
 }
 
 /*Colores*/
@@ -239,6 +279,7 @@ h2:hover {
 /*fuente*/
 /*Separador*/
 /*Color Foooter*/
+/*FOndos secciones empresas*/
 .logo__barra--nav {
   width: 10vh;
 }
@@ -279,6 +320,7 @@ footer {
 /*fuente*/
 /*Separador*/
 /*Color Foooter*/
+/*FOndos secciones empresas*/
 /*Resposive*/
 @media screen and (max-width: 780px) {
   .fondoUno {
@@ -286,25 +328,20 @@ footer {
     display: flex;
     flex-wrap: wrap;
   }
-
   h2 {
     font-size: 10vw;
   }
-
   .div__separador--p {
     font-size: 10vw;
     text-align: center;
   }
-
   .carruselIndex {
     display: grid;
     grid-template-columns: 1fr;
   }
-
   .footer {
     grid-template-columns: 1fr;
   }
-
   .section__hero {
     /*  background-color: map-get($colores, macro ); */
     height: 60vh;
@@ -313,24 +350,20 @@ footer {
     background-size: cover;
     background-position: bottom;
   }
-
   .section__tres {
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
   }
-
   .section__parrafo {
     font-size: 2rem;
   }
-
   .section__chevallier {
     background: url(../assets/img-chevallier.jpg) no-repeat fixed center center #333;
     background-size: cover;
     overflow: auto;
     margin-top: 50px;
   }
-
   .section__chevallier p {
     font-family: "Monda", sans-serif;
     color: white;

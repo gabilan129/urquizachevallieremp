@@ -25,66 +25,68 @@
 
     .carruselIndex {
         display: grid;
-        grid-template-columns: 1fr } 
+        grid-template-columns: 1fr
+    }
 
 
-        
-        .footer{
-            
-            grid-template-columns: 1fr;
-            
-        }
-        
 
-        .section__hero {
-            /*  background-color: map-get($colores, macro ); */
-            height: 60vh;
-            width: 100%;
-            background: url(../assets/fondoHero.jpg);
-            background-size: cover;
-            background-position: bottom;
-        
-        
-        }
+    .footer {
 
-        .section__tres {
-            height: fit-content;
-        }
-        
-        .section__parrafo {
-            font-size: map-get($tamañoFuentes , hero-parrafo-responsive);
-
-
-        }
-
-        .section__chevallier {
-    
-    
-            background: url(../assets/img-chevallier.jpg) no-repeat fixed center center #333 ;
-            background-size: cover;
-            overflow: auto;
-            margin-top: 50px;
-            
-        
-        }
-    
-        .section__chevallier p {
-            font-family: $fuente2 ;
-            color: white;
-            font-size: 1rem;
-            font-weight: 900;
-            overflow:hidden;
-            text-align:justify;
-        }
-
-         
+        grid-template-columns: 1fr;
 
     }
 
 
-    @media screen and (max-width : 876px){
+    .section__hero {
+        /*  background-color: map-get($colores, macro ); */
+        height: 60vh;
+        width: 100%;
+        background: url(../assets/fondoHero.jpg);
+        background-size: cover;
+        background-position: bottom;
 
-       .section__chevallier p{
-         font-size: 1rem;}
 
     }
+
+    .section__tres {
+        height: fit-content;
+    }
+
+    .section__parrafo {
+        font-size: map-get($tamañoFuentes, hero-parrafo-responsive);
+
+
+    }
+
+    .section__chevallier {
+
+        
+        background: url(../assets/img-chevallier.jpg) no-repeat fixed center center #333;
+        background-size: cover;
+        overflow: auto;
+        margin-top: 50px;
+
+
+    }
+
+    .section__chevallier p {
+        font-family: $fuente2;
+        color: white;
+        font-size: 1rem;
+        font-weight: 900;
+        overflow: hidden;
+        text-align: justify;
+    }
+
+
+
+}
+
+
+@media screen and (max-width : 876px) {
+
+    .section__chevallier p {
+        font-size: 1rem;
+    }
+
+}

@@ -1,8 +1,17 @@
-
+@import "./configuracion";
 * {
+
+
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+}
+*::-webkit-scrollbar {
+    background-color: map-get($colores, macro );
+}
+*::-webkit-scrollbar-thumb{
+    background-color: aqua;
+    border-radius: 10px;
 }
 @import "./footer";
 @import "./main";
@@ -27,7 +36,6 @@ main {
 footer {
     grid-area: 3 / 1 / 4 / 2;
 }
-
 
 
 

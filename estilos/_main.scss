@@ -198,16 +198,24 @@ h2:hover {
 
 /*Fin del index*/
 
+
+
+
+
 /*Chevallier*/
+
+
+
+
+
+
+
+
 
 
 .section__chevallier {
 
-
-    background: url(../assets/img-chevallier.jpg) no-repeat fixed center center #333;
-    background-size: cover;
-    margin-top: 15px;
-
+    @include sectionEmpresas("../assets/img-chevallier.jpg")
 }
 
 
@@ -228,13 +236,39 @@ h2:hover {
 
 }
 
-.section__chevallier p {
+.section__chevallier--h2 {
+    margin-top: 150px;
+    text-align: center;
+    font-family: $fuente2;
+    font-size: 5vw;
+    color: white;
+    @include efectoNeon(red);
+    font-weight: 900;
+}
+
+.section__chevallier__div--parrafo {
     margin: 10px;
     font-family: $fuente2;
     color: white;
     font-size: 20px;
     overflow: hidden;
     text-align: justify;
+    
 
+}
+
+/*URQUIZA*/
+
+.section__urquiza {
+    @include sectionEmpresas("../assets/img-urquiza.jpg")
+}
+
+
+.section__urquiza--titulo {
+    @extend .section__chevallier--titulo
+}
+
+.section__urquiza--h2 {
+    @extend .section__chevallier--h2
 
 }
