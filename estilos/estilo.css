@@ -147,7 +147,17 @@ section {
   color: rgb(255, 255, 255);
 }
 
-h2:hover {
+.h2__chevallier:hover, .h2__empArg:hover, .h2__urquiza:hover {
+  color: rgb(253, 253, 253);
+  text-shadow: 0 0 10px white, 0 0 20px white, 0 0 40px red, 0 0 80px white, 0 0 120px white;
+}
+
+.h2__urquiza:hover {
+  color: rgb(253, 253, 253);
+  text-shadow: 0 0 10px white, 0 0 20px white, 0 0 40px red, 0 0 80px white, 0 0 120px white;
+}
+
+.h2__empArg:hover {
   color: rgb(253, 253, 253);
   text-shadow: 0 0 10px white, 0 0 20px white, 0 0 40px red, 0 0 80px white, 0 0 120px white;
 }
@@ -244,7 +254,7 @@ h2:hover {
   margin-top: 15px;
 }
 
-.section__chevallier--titulo, .section__urquiza--titulo {
+.section__chevallier--titulo, .section__empArg--titulo, .section__urquiza--titulo {
   margin-top: 150px;
   text-align: center;
   font-family: "Monda", sans-serif;
@@ -254,7 +264,7 @@ h2:hover {
   font-weight: 900;
 }
 
-.section__chevallier--h2, .section__urquiza--h2 {
+.section__chevallier--h2, .section__empArg--h2, .section__urquiza--h2 {
   margin-top: 150px;
   text-align: center;
   font-family: "Monda", sans-serif;
@@ -264,7 +274,7 @@ h2:hover {
   font-weight: 900;
 }
 
-.section__chevallier__div--parrafo, .section__urquiza__div--parrafo {
+.section__chevallier__div--parrafo, .section__empArg__div--parrafo, .section__urquiza__div--parrafo {
   margin: 10px;
   font-family: "Monda", sans-serif;
   color: white;
@@ -279,6 +289,30 @@ h2:hover {
   height: 100%;
   background-size: cover;
   margin-top: 15px;
+}
+
+.section__urquiza--titulo {
+  text-shadow: 0 0 10px white, 0 0 20px white, 0 0 40px blue, 0 0 80px white, 0 0 120px white;
+}
+
+.section__urquiza--h2 {
+  text-shadow: 0 0 10px white, 0 0 20px white, 0 0 40px blue, 0 0 80px white, 0 0 120px white;
+}
+
+/*Empresa Argentina*/
+.section__empArg {
+  background: url("../assets/img-empresa-argentina.jpg") no-repeat fixed center center #333;
+  height: 100%;
+  background-size: cover;
+  margin-top: 15px;
+}
+
+.section__empArg--titulo {
+  text-shadow: 0 0 10px white, 0 0 20px white, 0 0 40px rgb(40, 192, 184), 0 0 80px white, 0 0 120px white;
+}
+
+.section__empArg--h2 {
+  text-shadow: 0 0 10px white, 0 0 20px white, 0 0 40px rgb(40, 192, 184), 0 0 80px white, 0 0 120px white;
 }
 
 /*Colores*/
@@ -385,7 +419,7 @@ footer {
     overflow: auto;
     margin-top: 50px;
   }
-  .section__chevallier__div--parrafo, .section__urquiza__div--parrafo {
+  .section__chevallier__div--parrafo, .section__urquiza__div--parrafo, .section__empArg__div--parrafo {
     font-family: "Monda", sans-serif;
     color: white;
     font-size: 1rem;

@@ -89,15 +89,20 @@ section {
 }
 
 
-h2:hover {
+.h2__chevallier:hover {
     color: rgb(253, 253, 253);
     @include efectoNeon(red)
 }
 
+.h2__urquiza:hover{
+    color: rgb(253, 253, 253);
+    @include efectoNeon(red)
+}
 
-
-
-
+.h2__empArg:hover{
+    color: rgb(253, 253, 253);
+    @include efectoNeon(red)
+}
 
 
 
@@ -249,7 +254,7 @@ h2:hover {
     font-size: 20px;
     overflow: hidden;
     text-align: justify;
-    
+
 
 }
 
@@ -261,15 +266,37 @@ h2:hover {
 
 
 .section__urquiza--titulo {
-    @extend .section__chevallier--titulo
+    @extend .section__chevallier--titulo;
+    @include efectoNeon(blue);
 }
 
 .section__urquiza--h2 {
-    @extend .section__chevallier--h2
-
+    @extend .section__chevallier--h2;
+    @include efectoNeon(blue);
 }
 
 .section__urquiza__div--parrafo {
     @extend .section__chevallier__div--parrafo;
-    
+
+}
+
+
+/*Empresa Argentina*/
+
+.section__empArg {
+    @include sectionEmpresas ("../assets/img-empresa-argentina.jpg")
+}
+
+.section__empArg--titulo {
+    @extend .section__chevallier--titulo;
+    @include efectoNeon(rgb(40, 192, 184))
+}
+
+.section__empArg--h2 {
+    @extend .section__chevallier--h2;
+    @include efectoNeon(rgb(40, 192, 184))
+}
+
+.section__empArg__div--parrafo {
+    @extend .section__chevallier__div--parrafo ;
 }
