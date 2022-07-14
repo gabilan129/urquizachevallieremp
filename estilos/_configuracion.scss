@@ -5,6 +5,8 @@ $colores : (rojo : red,
     blanco : white,
     negro : black,
     macro: #0e1525,
+    formulariofondo : #16213a,
+    neonEmpresaArgentina : rgb(40, 192, 184)
 );
 
 
@@ -74,7 +76,7 @@ $fondoFooter: #080b13;
 
 
 
-/*FOndos secciones empresas*/
+/*mixin*/
 @mixin sectionEmpresas ($fondosEmpresas) {
     
     background: url($fondosEmpresas) no-repeat fixed center center #333;
@@ -83,6 +85,32 @@ $fondoFooter: #080b13;
     background-size: cover;
     margin-top: 15px;
 }
+
+
+@mixin efectoNeon ($neonColor) {
+
+    text-shadow: 0 0 10px white,
+        0 0 20px white,
+        0 0 40px $neonColor,
+        0 0 80px white,
+        0 0 120px white;
+
+
+}
+
+@mixin fondo ($fondoindex) {
+    background: $fondoindex;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    /*  border: $bordeChevallier; */
+
+
+}
+
+
+
+
 
 
 

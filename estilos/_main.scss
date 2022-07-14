@@ -9,27 +9,8 @@ section {
     width: 100%;
 }
 
-@mixin efectoNeon ($neonColor) {
-
-    text-shadow: 0 0 10px white,
-        0 0 20px white,
-        0 0 40px $neonColor,
-        0 0 80px white,
-        0 0 120px white;
 
 
-}
-
-
-@mixin fondo ($fondoindex) {
-    background: $fondoindex;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    /*  border: $bordeChevallier; */
-
-
-}
 
 
 
@@ -94,12 +75,12 @@ section {
     @include efectoNeon(red)
 }
 
-.h2__urquiza:hover{
+.h2__urquiza:hover {
     color: rgb(253, 253, 253);
     @include efectoNeon(red)
 }
 
-.h2__empArg:hover{
+.h2__empArg:hover {
     color: rgb(253, 253, 253);
     @include efectoNeon(red)
 }
@@ -298,5 +279,35 @@ section {
 }
 
 .section__empArg__div--parrafo {
-    @extend .section__chevallier__div--parrafo ;
+    @extend .section__chevallier__div--parrafo;
+}
+
+/*Formulario*/
+.main__formulario {
+    color: map-get($colores, blanco);
+    margin-top: 100px;
+    
+    
+}
+
+.section__formulario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: map-get($colores, formulariofondo)
+}
+
+.formulario {
+    padding: 50px;
+    
+    
+    height: fit-content;
+    font-size: 20px;
+    
+}
+
+.formulario_titulo {
+    text-align: center;
+    font-size: 200px;
+    @include efectoNeon(rgb(247, 16, 227))
 }

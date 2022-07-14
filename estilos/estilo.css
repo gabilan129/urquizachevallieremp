@@ -8,7 +8,7 @@
 /*fuente*/
 /*Separador*/
 /*Color Foooter*/
-/*FOndos secciones empresas*/
+/*mixin*/
 /*ocultar desvorde de animacion*/
 .animation_overflow {
   overflow: hidden;
@@ -38,7 +38,7 @@
 /*fuente*/
 /*Separador*/
 /*Color Foooter*/
-/*FOndos secciones empresas*/
+/*mixin*/
 /*ocultar desvorde de animacion*/
 .animation_overflow {
   overflow: hidden;
@@ -79,7 +79,7 @@ h5 {
 /*fuente*/
 /*Separador*/
 /*Color Foooter*/
-/*FOndos secciones empresas*/
+/*mixin*/
 /*ocultar desvorde de animacion*/
 .animation_overflow {
   overflow: hidden;
@@ -315,6 +315,33 @@ section {
   text-shadow: 0 0 10px white, 0 0 20px white, 0 0 40px rgb(40, 192, 184), 0 0 80px white, 0 0 120px white;
 }
 
+/*Formulario*/
+.main__formulario {
+  color: white;
+  margin-top: 100px;
+}
+
+.section__formulario {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #16213a;
+}
+
+.formulario {
+  padding: 50px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-size: 20px;
+}
+
+.formulario_titulo {
+  text-align: center;
+  font-size: 200px;
+  text-shadow: 0 0 10px white, 0 0 20px white, 0 0 40px rgb(247, 16, 227), 0 0 80px white, 0 0 120px white;
+}
+
 /*Colores*/
 /*Section Hero*/
 /*tamaño de fuentes*/
@@ -324,7 +351,7 @@ section {
 /*fuente*/
 /*Separador*/
 /*Color Foooter*/
-/*FOndos secciones empresas*/
+/*mixin*/
 /*ocultar desvorde de animacion*/
 .animation_overflow {
   overflow: hidden;
@@ -370,7 +397,7 @@ footer {
 /*fuente*/
 /*Separador*/
 /*Color Foooter*/
-/*FOndos secciones empresas*/
+/*mixin*/
 /*ocultar desvorde de animacion*/
 .animation_overflow {
   overflow: hidden;
