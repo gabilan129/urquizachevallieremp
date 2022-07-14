@@ -285,7 +285,7 @@ section {
 /*Formulario*/
 .main__formulario {
     color: map-get($colores, blanco);
-    margin-top: 100px;
+    
     
     
 }
@@ -293,12 +293,16 @@ section {
 .section__formulario {
     display: flex;
     justify-content: center;
+    
     background-color: map-get($colores, formulariofondo)
 }
 
 .formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 20px;
-    margin-top: 30px;
+    margin-top: 150px;
     box-shadow: 0 0 15px 10px rgb(247,16,227);
     height: fit-content;
     font-size: 20px;

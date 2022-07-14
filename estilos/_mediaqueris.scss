@@ -90,3 +90,26 @@
     }
 
 }
+
+
+@media screen and (max-width : 480px) {
+
+    .section__chevallier p {
+        font-size: 16px;
+    }
+
+
+    .formulario_titulo {
+        text-align: center;
+        font-size: 50px;
+        @include efectoNeon(rgb(247, 16, 227))
+    }
+
+
+    .formulario {
+        
+        padding: 0px;
+      
+    }
+
+}
