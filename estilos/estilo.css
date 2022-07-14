@@ -323,13 +323,14 @@ section {
 
 .section__formulario {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   background-color: #16213a;
 }
 
 .formulario {
-  padding: 50px;
+  padding: 20px;
+  margin-top: 30px;
+  box-shadow: 0 0 15px 10px rgb(247, 16, 227);
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -338,7 +339,7 @@ section {
 
 .formulario_titulo {
   text-align: center;
-  font-size: 200px;
+  font-size: 100px;
   text-shadow: 0 0 10px white, 0 0 20px white, 0 0 40px rgb(247, 16, 227), 0 0 80px white, 0 0 120px white;
 }
 
