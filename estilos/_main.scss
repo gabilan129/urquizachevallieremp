@@ -285,7 +285,7 @@ section {
 /*Formulario*/
 
 .cuerpo__formulario {
-    background : url("../assets/pexels-alex-andrews-821754.jpg");
+    background: url("../assets/pexels-alex-andrews-821754.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -294,8 +294,8 @@ section {
 
 .main__formulario {
     color: map-get($colores, formularioTextoInput);
-    
-    
+
+
 }
 
 .section__formulario {
@@ -318,7 +318,7 @@ section {
 }
 
 .formulario_titulo {
-    
+
     text-align: center;
     font-size: 100px;
     @include efectoNeon(rgb(0, 0, 0))
@@ -326,5 +326,5 @@ section {
 
 .btn-formulario {
     border-radius: 5px;
-     
+
 }
