@@ -10,8 +10,7 @@ $colores : (rojo : red,
     negro : black,
     macro: #0e1525,
     formulariofondo : #16213a,
-    neonEmpresaArgentina : rgb(40, 192, 184)
-);
+    formularioTextoInput : rgb(102, 102, 102));
 
 
 
@@ -19,17 +18,14 @@ $colores : (rojo : red,
 
 $tituloHero : white;
 $parrafoHero : white;
-$iconosHero : 5vw ;
+$iconosHero : 5vw;
 
 
 /*tamaño de fuentes*/
 
-$tamañoFuentes : (
-hero-titulo : 10vw,
-hero-parrafo : 3rem,
-hero-parrafo-responsive : 2rem
-
-);
+$tamañoFuentes : (hero-titulo : 10vw,
+    hero-parrafo : 3rem,
+    hero-parrafo-responsive : 2rem);
 
 
 /*ColorNav*/
@@ -43,8 +39,7 @@ $coloresNav : (colorNav : rgb(36, 40, 85),
 
 /*titulosIndes*/
 
-$coloresTitulos : (
-    chevallier : white,
+$coloresTitulos : (chevallier : white,
     empArg : rgb(255, 255, 255),
     urquiza : rgb(255, 255, 255),
 
@@ -82,10 +77,10 @@ $fondoFooter: #080b13;
 
 /*mixin*/
 @mixin sectionEmpresas ($fondosEmpresas) {
-    
+
     background: url($fondosEmpresas) no-repeat fixed center center #333;
-    
-    height:100%;
+
+    height: 100%;
     background-size: cover;
     margin-top: 15px;
 }
@@ -125,3 +120,4 @@ $fondoFooter: #080b13;
 
     overflow: hidden;
 }
+

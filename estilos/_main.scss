@@ -283,20 +283,24 @@ section {
 }
 
 /*Formulario*/
+
+.cuerpo__formulario {
+    background : url("../assets/pexels-alex-andrews-821754.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
 .main__formulario {
-    color: map-get($colores, blanco);
-    
+    color: map-get($colores, formularioTextoInput);
     
     
 }
 
 .section__formulario {
-    display: flex;
     justify-content: center;
-    background : url("../assets/pexels-alex-andrews-821754.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    display: flex;
 }
 
 .formulario {
@@ -305,14 +309,16 @@ section {
     align-items: center;
     padding: 20px;
     margin-top: 150px;
-    box-shadow: 0 0 15px 10px rgb(247,16,227);
+    box-shadow: 0 0 15px 10px rgb(5, 5, 5);
     height: fit-content;
     font-size: 20px;
-    
+    border-radius: 15px;
 }
 
 .formulario_titulo {
+    
     text-align: center;
     font-size: 100px;
-    @include efectoNeon(rgb(247, 16, 227))
+    @include efectoNeon(rgb(0, 0, 0))
 }
+

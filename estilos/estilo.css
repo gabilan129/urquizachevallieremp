@@ -319,17 +319,20 @@ section {
 }
 
 /*Formulario*/
-.main__formulario {
-  color: white;
-}
-
-.section__formulario {
-  display: flex;
-  justify-content: center;
+.cuerpo__formulario {
   background: url("../assets/pexels-alex-andrews-821754.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.main__formulario {
+  color: rgb(102, 102, 102);
+}
+
+.section__formulario {
+  justify-content: center;
+  display: flex;
 }
 
 .formulario {
@@ -338,17 +341,18 @@ section {
   align-items: center;
   padding: 20px;
   margin-top: 150px;
-  box-shadow: 0 0 15px 10px rgb(247, 16, 227);
+  box-shadow: 0 0 15px 10px rgb(5, 5, 5);
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   font-size: 20px;
+  border-radius: 15px;
 }
 
 .formulario_titulo {
   text-align: center;
   font-size: 100px;
-  text-shadow: 0 0 10px white, 0 0 20px white, 0 0 40px rgb(247, 16, 227), 0 0 80px white, 0 0 120px white;
+  text-shadow: 0 0 10px white, 0 0 20px white, 0 0 40px rgb(0, 0, 0), 0 0 80px white, 0 0 120px white;
 }
 
 /*Configuraciones para controlar estilos basicos de la pagina mas facilmente*/
@@ -436,7 +440,6 @@ footer {
     grid-template-columns: 1fr;
   }
   .section__hero {
-    /*  background-color: map-get($colores, macro ); */
     height: 60vh;
     width: 100%;
     background: url(../assets/fondoHero.jpg);
@@ -478,7 +481,6 @@ footer {
   .formulario_titulo {
     text-align: center;
     font-size: 50px;
-    text-shadow: 0 0 10px white, 0 0 20px white, 0 0 40px rgb(247, 16, 227), 0 0 80px white, 0 0 120px white;
   }
   .formulario {
     padding: 0px;

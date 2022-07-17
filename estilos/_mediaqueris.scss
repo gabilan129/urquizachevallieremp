@@ -38,7 +38,7 @@
 
 
     .section__hero {
-        /*  background-color: map-get($colores, macro ); */
+        
         height: 60vh;
         width: 100%;
         background: url(../assets/fondoHero.jpg);
@@ -60,7 +60,7 @@
 
     .section__chevallier {
 
-        
+
         background: url(../assets/img-chevallier.jpg) no-repeat fixed center center #333;
         background-size: cover;
         overflow: auto;
@@ -94,6 +94,8 @@
 
 @media screen and (max-width : 480px) {
 
+  
+
     .section__chevallier p {
         font-size: 16px;
     }
@@ -102,14 +104,14 @@
     .formulario_titulo {
         text-align: center;
         font-size: 50px;
-        @include efectoNeon(rgb(247, 16, 227))
+
     }
 
 
     .formulario {
-        
+
         padding: 0px;
-      
+
     }
 
     .iconos__footer {

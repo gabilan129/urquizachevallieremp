@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="../estilos/estilo.css">
 </head>
 
-<body>
+<body class="cuerpo__formulario">
     <header>
         <header>
             <nav class="navbar fixed-top col-12 nav__color">
@@ -78,17 +78,17 @@
 
 
                 <form action="" method="get" enctype="text/plain">
-                    
+
                     <div>
                         <label for="userName">Nombre</label>
-                        <input type="text" id="userName" name="userName" placeholder="Dejanos tu nombre">
+                        <input type="text" id="userName" name="userName" placeholder="Dejanos tu nombre" autofocus>
                     </div>
-                    
+
                     <div>
 
                         <label for="exampleDataList" class="form-label">Empresa</label>
                         <input class="form-control" list="datalistOptions" id="exampleDataList"
-                        placeholder="busca lo que necesites" name="exampleDataList">
+                            placeholder="busca lo que necesites" name="exampleDataList">
                         <datalist id="datalistOptions">
                             <option value="Chevallier"></option>
                             <option value="Empresa Argentina"></option>
@@ -102,7 +102,8 @@
                     </div>
                     <div class="mb-3">
                         <label for="exampleFormControlTextarea1" class="form-label">Comentario</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="exampleFormControlTextarea1"></textarea>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            name="exampleFormControlTextarea1"></textarea>
                     </div>
                     <div>
                         <label for="fechaHora">Fecha y hora</label>
@@ -112,14 +113,14 @@
                     <input type="reset">
                 </form>
 
-                
-               
+
+
+
             </div>
             <div>
 
 
             </div>
-
 
 
 
@@ -156,8 +157,11 @@
 
 
 
-
-
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#080b13" fill-opacity="1"
+                d="M0,64L17.1,64C34.3,64,69,64,103,101.3C137.1,139,171,213,206,229.3C240,245,274,203,309,165.3C342.9,128,377,96,411,80C445.7,64,480,64,514,106.7C548.6,149,583,235,617,261.3C651.4,288,686,256,720,224C754.3,192,789,160,823,165.3C857.1,171,891,213,926,234.7C960,256,994,256,1029,261.3C1062.9,267,1097,277,1131,266.7C1165.7,256,1200,224,1234,213.3C1268.6,203,1303,213,1337,181.3C1371.4,149,1406,75,1423,37.3L1440,0L1440,320L1422.9,320C1405.7,320,1371,320,1337,320C1302.9,320,1269,320,1234,320C1200,320,1166,320,1131,320C1097.1,320,1063,320,1029,320C994.3,320,960,320,926,320C891.4,320,857,320,823,320C788.6,320,754,320,720,320C685.7,320,651,320,617,320C582.9,320,549,320,514,320C480,320,446,320,411,320C377.1,320,343,320,309,320C274.3,320,240,320,206,320C171.4,320,137,320,103,320C68.6,320,34,320,17,320L0,320Z">
+            </path>
+        </svg>
     </main>
     <footer>
         <div class="footer">
