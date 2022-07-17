@@ -294,7 +294,10 @@ section {
     display: flex;
     justify-content: center;
     
-    background-color: map-get($colores, formulariofondo)
+    background : url("../assets/pexels-alex-andrews-821754.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .formulario {
